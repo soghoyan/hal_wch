@@ -1,0 +1,4 @@
+name: hal_wch
+build:
+  cmake: .
+  kconfig: Kconfig.wch

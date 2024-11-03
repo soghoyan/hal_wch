@@ -1,0 +1,8 @@
+# WCH HAL drivers configuration
+
+# Copyright (c) 2024 Armen Soghoyan <asoghoyan@yahoo.com>
+# SPDX-License-Identifier: Apache-2.0
+
+config HAS_WCH_HAL
+	bool "WCH HAL drivers support"
+	depends on SOC_FAMILY_CH32V
